@@ -9,6 +9,14 @@ const FullScreenModal = ({ isOpen, onClose }) => {
             <nav class="flex flex-col text-gray-400 font-semibold gap-y-2">
                 <a
                     class="uppercase tracking-wider py-4 px-8 inline-block hover:text-sky-500 transition-colors group"
+                    href="/"
+                >
+                    <span class="transform transition-transform inline-block group-hover:translate-x-2">
+                        Home
+                    </span>
+                </a>
+                <a
+                    class="uppercase tracking-wider py-4 px-8 inline-block hover:text-sky-500 transition-colors group"
                     href="/projects"
                 >
                     <span class="transform transition-transform inline-block group-hover:translate-x-2">

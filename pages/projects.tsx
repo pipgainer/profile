@@ -115,7 +115,7 @@ const Projects = () => {
     return (
         <>
             <section className="container mx-auto px-8 2xl:px-36 text-center pt-32">
-                <h1 className="text-3xl sm:text-5xl font-bold text-white">All my projects</h1>
+                <h1 className="text-3xl sm:text-5xl font-bold text-white">All my <span className="highlight bg-clip-text">Projects</span></h1>
                 <p className="text-coolGray-400 font-semibold mt-8 text-lg">
                     All the things I built till date, some of them being improved even today!
                 </p>
