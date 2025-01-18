@@ -28,9 +28,7 @@ export default function Home() {
                         </span>
                     </h1>
                     <p className="text-xl text-gray-400 leading-relaxed mt-8">
-                        I'm passionate about building innovative products on the
-                        web keeping good design in mind. I like learning new
-                        technologies, and developing new.
+                        As a software engineer with expertise in both web and mobile development, I'm passionate about creating innovative, user-friendly products that blend cutting-edge technology with exceptional design. I thrive on learning new tools and frameworks to push the boundaries of what’s possible, constantly evolving to stay ahead in the tech world.
                     </p>
                 </div>
                 <div className="gradient-border p-4 hidden lg:block relative highlight rounded-xl">
@@ -96,16 +94,10 @@ export default function Home() {
                         <div className="text-coolGray-400 text-xl">
                             <div className="mt-4 "></div>
                             <p className="mt-4 text-xl">
-                                I love to challenge myself and learn new
-                                technologies. Right now I have experience in
-                                developing various web applications and mobile
-                                applicaiton for Courseplay.
+                                I thrive on challenging myself and constantly learning new technologies. Currently, I have experience developing both web and mobile applications, with a focus on creating seamless user experiences. Right now, I'm working with Courseplay, building solutions that make a difference.
                             </p>
                             <p className="mt-4 text-xl">
-                                Also in my free time I try different
-                                technologies to get good with. The one quote
-                                which really keeps me going on when trying new
-                                techstack is, <br />
+                                In my free time, I dive into new tech stacks to sharpen my skills. One quote that motivates me when tackling new technologies is, <br />
                                 <span className="text-green-400">
                                     "It seems difficult at first, but everything
                                     is difficult at first." - Miyamoto Musashi
