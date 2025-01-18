@@ -43,8 +43,8 @@
 }
 
 body {
-    background: linear-gradient(to right, #1a1a1a, #000000);
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
@@ -66,7 +66,9 @@ h3 {
 }
 
 .gradient-border {
-    --borderWidth: 3px;
+    --borderWidth: 5px;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
     position: relative;
     border-radius: var(--borderWidth);
 }
