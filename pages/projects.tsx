@@ -6,7 +6,7 @@ const projectsData = [
         "title": "QuizGenie",
         "description": "QuizGenie is an AI-powered quiz engine that generates quizzes from uploaded PDFs or text. Tutors create and share quiz links with learners, who can answer questions interactively. The platform also provides downloadable student performance reports.",
         "technologies": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "AI Integration", "PDF Parsing"],
-        "liveLink": "https://www.linkedin.com/posts/abhishekpowade_quizgenie-edtech-ai-activity-7278190806614634496-gMyZ?utm_source=share&utm_medium=member_desktop",
+        "demoLink": "https://www.linkedin.com/posts/abhishekpowade_quizgenie-edtech-ai-activity-7278190806614634496-gMyZ?utm_source=share&utm_medium=member_desktop",
         "githubLink": "https://github.com/pipgainer/ai-test-engine"
     },
     {
@@ -51,9 +51,9 @@ const projectsData = [
     }
 ];
 
-const ProjectCard = ({ date, title, description, technologies, liveLink, githubLink }: any) => (
+const ProjectCard = ({ date, title, description, demoLink, technologies, liveLink, githubLink }: any) => (
     <div className="flex pointer-events-auto">
-        <div className="text-coolGray-400 bg-zinc-900 p-6 rounded-lg w-full flex flex-col transform transition lg:hover:scale-105 hover:opacity-100 lg:hover:shadow-2xl border border-transparent hover:border-blue-500"        >
+        <div className="text-coolGray-400 bg-zinc-900 p-6 rounded-lg w-full flex flex-col transform transition lg:hover:scale-105 hover:opacity-100 lg:hover:shadow-2xl border-2 border-transparent hover:border-blue-500"        >
             <section className="flex justify-between">
                 <span className="text-coolGray-500">{date}</span>
             </section>
@@ -68,7 +68,7 @@ const ProjectCard = ({ date, title, description, technologies, liveLink, githubL
                 ))}
             </ul>
             <div className="flex justify-between text-green-400">
-                {liveLink && <a href={liveLink} target="_blank" className="link" rel="noopener noreferrer">
+                {(liveLink || demoLink) && <a href={liveLink ?? demoLink} target="_blank" className="link" rel="noopener noreferrer">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="18"
@@ -85,7 +85,7 @@ const ProjectCard = ({ date, title, description, technologies, liveLink, githubL
                         <polyline points="15 3 21 3 21 9"></polyline>
                         <line x1="10" y1="14" x2="21" y2="3"></line>
                     </svg>
-                    Live
+                    {demoLink ? "Demo" : "Live"}
                 </a>}
                 {githubLink && <a href={githubLink} target="_blank" className="link" rel="noopener noreferrer">
                     <svg
