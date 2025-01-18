@@ -136,7 +136,36 @@ export default function Home() {
 				<div className="mt-12">
 					<h2 className="text-4xl font-semibold">Experience</h2>
 					<section>
-						<ul className="space-y-6 mt-10 text-coolGray-500">
+						<ul className="space-y-6 mt-10 text-coolGray-500 pb-10">
+                        <li className="flex items-center">
+								<div className="gatsby-image-wrapper gatsby-image-wrapper-constrained rounded flex-shrink-0 bg-white">
+									<Image
+										width={150}
+										height={150}
+										alt="courseplay-logo"
+										src={"/Courseplay-Logo.png"}
+									/>
+								</div>
+								<div className="ml-4 sm:ml-6">
+									<div className="text-gray-50 text-lg">
+										Software Engineer{" "}
+										<span className="text-green-400 whitespace-nowrap">
+											@{" "}
+											<a
+												href="https://courseplay.co/"
+												target="_blank"
+												className="link"
+												rel="noreferrer"
+											>
+												Courseplay
+											</a>
+										</span>
+									</div>
+									<p className="text-sm font-semibold mt-1.5">
+										Dececmber 2023 &nbsp;—&nbsp; Now
+									</p>
+								</div>
+							</li>
 							<li className="flex items-center">
 								<div className="gatsby-image-wrapper gatsby-image-wrapper-constrained rounded flex-shrink-0 bg-white">
 									<Image
@@ -162,7 +191,7 @@ export default function Home() {
 										</span>
 									</div>
 									<p className="text-sm font-semibold mt-1.5">
-										July 2022 &nbsp;—&nbsp; Now
+										July 2022 &nbsp;—&nbsp; November 2023
 									</p>
 								</div>
 							</li>

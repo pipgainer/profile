@@ -43,8 +43,8 @@
 }
 
 body {
-    background-color: #000000;
-    background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+    background: linear-gradient(to right, #1a1a1a, #000000);
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
@@ -67,8 +67,6 @@ h3 {
 
 .gradient-border {
     --borderWidth: 3px;
-    background: #000;
-    background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
     position: relative;
     border-radius: var(--borderWidth);
 }

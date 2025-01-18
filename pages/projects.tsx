@@ -3,7 +3,7 @@ import React from "react";
 const projects = () => {
 	return (
 		<>
-			<section className="container mx-auto px-8 2xl:px-36 text-center py-32">
+			<section className="container mx-auto px-8 2xl:px-36 text-center pt-32">
 				<h1 className="text-3xl sm:text-5xl font-bold text-white">
 					All my projects
 				</h1>
