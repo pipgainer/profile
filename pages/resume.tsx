@@ -1,6 +1,10 @@
 import React from "react";
 
 const Resume = () => {
+    const openPdf = () => {
+        const pdfUrl = '//resume.pdf';
+        window.open(pdfUrl, '_blank');
+    };
     return (
         <div className="flex min-h-screen w-full flex-col items-center justify-between container mx-auto py-16 sm:py-24 px-4 sm:px-8 lg:px-12 relative">
             <section className="container mx-auto px-8 2xl:px-36 text-center pt-10">
@@ -14,10 +18,23 @@ const Resume = () => {
             </section>
 
             {/* PDF Viewer */}
-            <div className="w-full mt-10 flex justify-center items-center">
-                <div className="w-full max-w-full sm:max-w-3xl">
-                    <object data="/resume.pdf" type="application/pdf" width="100%" height={600}>
-                        <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a></p>
+            <div className="w-full mt-5 flex justify-center items-center px-5">
+                <div className="w-full max-w-4xl mt-5">
+                    <object
+                        data="/resume.pdf"
+                        type="application/pdf"
+                        width="100%"
+                        height="600"
+                    >
+                        <div className="text-center text-white mt-5">
+                            <p>Your browser doesn’t support viewing PDFs. You can:</p>
+                            <button
+                                onClick={openPdf}
+                                className="mt-5 px-4 py-2 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition"
+                            >
+                                Click here to open the resume
+                            </button>
+                        </div>
                     </object>
                 </div>
             </div>
