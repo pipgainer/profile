@@ -2,6 +2,14 @@ import React from "react";
 
 const projectsData = [
     {
+        "date": "Jan 19, 2025",
+        "title": "EdTech Mobile Application",
+        "description": "EdTech Mobile Application is a comprehensive learning platform where users can view courses, take quizzes, and track their progress. Built using React Native, this app integrates various libraries to provide a seamless learning experience with interactive features for both students and instructors.",
+        "technologies": ["React Native", "React Navigation", "Redux", "Firebase", "SQLite", "Quiz Integration", "Course Management"],
+        // "demoLink": "URL_TO_DEMO",
+        // "githubLink": "URL_TO_GITHUB"
+    },
+    {
         "date": "Dec 19, 2024",
         "title": "QuizGenie",
         "description": "QuizGenie is an AI-powered quiz engine that generates quizzes from uploaded PDFs or text. Tutors create and share quiz links with learners, who can answer questions interactively. The platform also provides downloadable student performance reports.",
@@ -33,6 +41,7 @@ const projectsData = [
         "liveLink": "https://profile-pipgainer.vercel.app/",
         "githubLink": "https://github.com/pipgainer/profile"
     },
+
     {
         "date": "Nov 14, 2023",
         "title": "3D T-Shirt Designer",
@@ -40,6 +49,14 @@ const projectsData = [
         "technologies": ["Next.js", "Three.js", "Tailwind CSS", "JavaScript", "WebGL"],
         liveLink: "https://3d-shirt-design.vercel.app/",
         githubLink: "https://github.com/pipgainer/3d-shirt-design",
+    },
+    {
+        "date": "Oct 13, 2023",
+        "title": "Receptionist Appointment Application",
+        "description": "The Receptionist Appointment Application is a mobile platform built with Ionic and its libraries. It allows users to create, manage, and view appointments. The app includes a custom calendar, direct calling functionality for patient communication, and various features designed to streamline appointment scheduling and management for receptionists.",
+        "technologies": ["Ionic", "Angular", "Ionic Native", "Custom Calendar", "Direct Calling", "Appointment Scheduling"],
+        // "demoLink": "URL_TO_DEMO",
+        // "githubLink": "URL_TO_GITHUB"
     },
     {
         "date": "Sep 5, 2023",
