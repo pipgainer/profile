@@ -3,7 +3,7 @@ import React from "react";
 const projectsData = [
     {
         "date": "Jan 19, 2025",
-        "title": "EdTech Mobile Application",
+        "title": "EdTech Mobile App",
         "description": "EdTech Mobile Application is a comprehensive learning platform where users can view courses, take quizzes, and track their progress. Built using React Native, this app integrates various libraries to provide a seamless learning experience with interactive features for both students and instructors.",
         "technologies": ["React Native", "React Navigation", "Redux", "Firebase", "SQLite", "Quiz Integration", "Course Management"],
         // "demoLink": "URL_TO_DEMO",
@@ -52,7 +52,7 @@ const projectsData = [
     },
     {
         "date": "Oct 13, 2023",
-        "title": "Receptionist Appointment Application",
+        "title": "Receptionist  App",
         "description": "The Receptionist Appointment Application is a mobile platform built with Ionic and its libraries. It allows users to create, manage, and view appointments. The app includes a custom calendar, direct calling functionality for patient communication, and various features designed to streamline appointment scheduling and management for receptionists.",
         "technologies": ["Ionic", "Angular", "Ionic Native", "Custom Calendar", "Direct Calling", "Appointment Scheduling"],
         // "demoLink": "URL_TO_DEMO",
