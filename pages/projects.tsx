@@ -68,7 +68,7 @@ const ProjectCard = ({ date, title, description, demoLink, technologies, liveLin
                 ))}
             </ul>
             <div className="flex justify-between text-green-400">
-                {(liveLink || demoLink) && <a href={liveLink ?? demoLink} target="_blank" className="link" rel="noopener noreferrer">
+                {(liveLink || demoLink) ? <a href={liveLink ?? demoLink} target="_blank" className="link" rel="noopener noreferrer">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="18"
@@ -86,7 +86,7 @@ const ProjectCard = ({ date, title, description, demoLink, technologies, liveLin
                         <line x1="10" y1="14" x2="21" y2="3"></line>
                     </svg>
                     {demoLink ? "Demo" : "Live"}
-                </a>}
+                </a> : <div></div>}
                 {githubLink && <a href={githubLink} target="_blank" className="link" rel="noopener noreferrer">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

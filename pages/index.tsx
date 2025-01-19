@@ -9,7 +9,7 @@ export default function Home() {
         <main>
             <section className="flex min-h-screen items-center justify-between container mx-auto relative 2xl:px-36 px-8">
                 <div className="lg:w-1/2">
-                    <div className="gradient-border w-fit rounded-full  p-4 lg:hidden relative highlight mb-10 mt-20">
+                    <div className="gradient-border w-fit rounded-full  p-4 lg:hidden relative highlight mb-10 mt-[120px]">
                         <Image
                             width={200}
                             height={200}
