@@ -57,7 +57,7 @@ const ProjectCard = ({ date, title, description, demoLink, technologies, liveLin
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
-        if (window.innerWidth <= 640) {
+        if (window.innerWidth <= 10) {
             const observer = new IntersectionObserver(
                 ([entry]) => setIsVisible(entry.isIntersecting),
                 { threshold: 1 }
