@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React from "react";
 
 const projectsData = [
     {
@@ -53,25 +53,12 @@ const projectsData = [
 
 const ProjectCard = ({ date, title, description, demoLink, technologies, liveLink, githubLink }: any) => {
 
-    const cardRef = useRef<HTMLDivElement>(null);
-    const [isVisible, setIsVisible] = useState(false);
-
-    useEffect(() => {
-        if (window.innerWidth <= 10) {
-            const observer = new IntersectionObserver(
-                ([entry]) => setIsVisible(entry.isIntersecting),
-                { threshold: 1 }
-            );
-            if (cardRef.current) observer.observe(cardRef.current);
-            return () => observer.disconnect();
-        }
-    }, []);
 
     return (
         <div className="flex pointer-events-auto">
-            <div ref={cardRef}
-                className={`text-coolGray-400 bg-zinc-900 p-6 rounded-lg w-full flex flex-col transform transition ${isVisible ? "scale-105 opacity-100 shadow-2xl border-blue-500" : ""
-                    } lg:hover:scale-105 hover:opacity-100 lg:hover:shadow-2xl border-2 border-transparent hover:border-blue-500`}>
+            <div
+                className={`text-coolGray-400 bg-zinc-900 p-6 rounded-lg w-full flex flex-col transform transition
+                    lg:hover:scale-105 hover:opacity-100 lg:hover:shadow-2xl border-2 border-transparent hover:border-blue-500`}>
                 <section className="flex justify-between">
                     <span className="text-coolGray-500">{date}</span>
                 </section>
