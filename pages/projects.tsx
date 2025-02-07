@@ -14,8 +14,8 @@ const projectsData = [
         "title": "QuizGenie",
         "description": "QuizGenie is an AI-powered quiz engine that generates quizzes from uploaded PDFs or text. Tutors create and share quiz links with learners, who can answer questions interactively. The platform also provides downloadable student performance reports.",
         "technologies": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "AI Integration", "PDF Parsing"],
-        "demoLink": "https://www.linkedin.com/posts/abhishekpowade_quizgenie-edtech-ai-activity-7278190806614634496-gMyZ?utm_source=share&utm_medium=member_desktop",
-        "githubLink": "https://github.com/pipgainer/ai-test-engine"
+        "githubLink": "https://www.linkedin.com/posts/abhishekpowade_quizgenie-edtech-ai-activity-7278190806614634496-gMyZ?utm_source=share&utm_medium=member_desktop",
+        "liveLink": "https://ai-test-engine.vercel.app/"
     },
     {
         "date": "Oct 12, 2024",
