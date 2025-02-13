@@ -14,7 +14,7 @@ const projectsData = [
         "title": "QuizGenie",
         "description": "QuizGenie is an AI-powered quiz engine that generates quizzes from uploaded PDFs or text. Tutors create and share quiz links with learners, who can answer questions interactively. The platform also provides downloadable student performance reports.",
         "technologies": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "AI Integration", "PDF Parsing"],
-        "githubLink": "https://www.linkedin.com/posts/abhishekpowade_quizgenie-edtech-ai-activity-7278190806614634496-gMyZ?utm_source=share&utm_medium=member_desktop",
+        "demoLink": "https://www.linkedin.com/posts/abhishekpowade_quizgenie-edtech-ai-activity-7278190806614634496-gMyZ?utm_source=share&utm_medium=member_desktop",
         "liveLink": "https://ai-test-engine.vercel.app/"
     },
     {
@@ -90,7 +90,7 @@ const ProjectCard = ({ date, title, description, demoLink, technologies, liveLin
                     ))}
                 </ul>
                 <div className="flex justify-between text-green-400">
-                    {(liveLink || demoLink) ? <a href={liveLink ?? demoLink} target="_blank" className="link" rel="noopener noreferrer">
+                    {liveLink ? <a href={liveLink ?? demoLink} target="_blank" className="link" rel="noopener noreferrer">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="18"
@@ -107,9 +107,9 @@ const ProjectCard = ({ date, title, description, demoLink, technologies, liveLin
                             <polyline points="15 3 21 3 21 9"></polyline>
                             <line x1="10" y1="14" x2="21" y2="3"></line>
                         </svg>
-                        {demoLink ? "Demo" : "Live"}
+                        "Live"
                     </a> : <div></div>}
-                    {githubLink ? <a href={githubLink} target="_blank" className="link" rel="noopener noreferrer">
+                    {githubLink || demoLink ? <a href={githubLink ?? demoLink} target="_blank" className="link" rel="noopener noreferrer">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="18"
@@ -126,7 +126,7 @@ const ProjectCard = ({ date, title, description, demoLink, technologies, liveLin
                             <polyline points="15 3 21 3 21 9"></polyline>
                             <line x1="10" y1="14" x2="21" y2="3"></line>
                         </svg>
-                        Github
+                        {demoLink ? "Demo" : "Github"}
                     </a> : <div></div>}
                 </div>
             </div>
