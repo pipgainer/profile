@@ -107,7 +107,7 @@ const ProjectCard = ({ date, title, description, demoLink, technologies, liveLin
                             <polyline points="15 3 21 3 21 9"></polyline>
                             <line x1="10" y1="14" x2="21" y2="3"></line>
                         </svg>
-                        "Live"
+                        Live
                     </a> : <div></div>}
                     {githubLink || demoLink ? <a href={githubLink ?? demoLink} target="_blank" className="link" rel="noopener noreferrer">
                         <svg
