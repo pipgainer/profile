@@ -4,9 +4,9 @@ const projectsData = [
     {
         "date": "March 6, 2025",
         "title": "WhereItWent - Smart Expense Tracker",
-        "description": "WhereItWent is an intelligent expense tracking mobile application that automatically detects UPI transactions from SMS and maps them to their respective locations. Designed to help users visualize and analyze their spending effortlessly, it provides filtering options based on bank, amount, date, and location. Built using React Native, this app offers a seamless and engaging experience for financial management.",
-        "technologies": ["React Native", "React Navigation", "Redux", "AsyncStorage", "UPI Transaction Tracking", "Location Mapping", "Data Visualization"],
-        "demoLink": "https://www.linkedin.com/in/abhishekpowade/",
+        "description": "WhereItWent automatically tracks UPI transactions from SMS and maps them to locations, helping users visualize and manage their spending effortlessly. Built using React Native, this app offers a seamless and engaging experience for financial management.",
+        "technologies": ["React Native", "React Navigation", "Redux", "AsyncStorage", "UPI Tracking", "Location Mapping", "Data Visualization"],
+        "demoLink": "https://www.linkedin.com/posts/abhishekpowade_whereitwent-upi-maps-activity-7303503697928425472-0TYD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACL5mhkBh1Vgq1Ga3xH0wlTGD-xt6J7lC9Q",
         // "githubLink": "URL_TO_GITHUB"
     },
     {
