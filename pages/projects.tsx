@@ -2,6 +2,14 @@ import React from "react";
 
 const projectsData = [
     {
+        "date": "March 6, 2025",
+        "title": "WhereItWent - Smart Expense Tracker",
+        "description": "WhereItWent is an intelligent expense tracking mobile application that automatically detects UPI transactions from SMS and maps them to their respective locations. Designed to help users visualize and analyze their spending effortlessly, it provides filtering options based on bank, amount, date, and location. Built using React Native, this app offers a seamless and engaging experience for financial management.",
+        "technologies": ["React Native", "React Navigation", "Redux", "AsyncStorage", "UPI Transaction Tracking", "Location Mapping", "Data Visualization"],
+        "demoLink": "https://www.linkedin.com/in/abhishekpowade/",
+        // "githubLink": "URL_TO_GITHUB"
+    },
+    {
         "date": "Jan 19, 2025",
         "title": "EdTech Mobile App",
         "description": "EdTech Mobile Application is a comprehensive learning platform where users can view courses, take quizzes, and track their progress. Built using React Native, this app integrates various libraries to provide a seamless learning experience with interactive features for both students and instructors.",
