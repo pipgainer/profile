@@ -28,7 +28,7 @@ export default function Home() {
                         </span>
                     </h1>
                     <p className="text-xl text-gray-400 leading-relaxed mt-8">
-                        As a software engineer with expertise in both web and mobile development, I'm passionate about creating innovative, user-friendly products that blend cutting-edge technology with exceptional design. I thrive on learning new tools and frameworks to push the boundaries of what’s possible, constantly evolving to stay ahead in the tech world.
+                        With 3 years of experience in mobile and web application development, I specialize in building high-performance, user-friendly applications that seamlessly integrate technology and design. Passionate about innovation, I continuously explore new tools and frameworks to enhance functionality, optimize performance, and stay ahead in the ever-evolving tech landscape.
                     </p>
                 </div>
                 <div className="gradient-border p-4 hidden lg:block relative highlight rounded-xl">
@@ -88,43 +88,36 @@ export default function Home() {
                     <h2 className="text-4xl font-semibold mt-10 lg:mt-0">About Me</h2>
                     <section>
                         <p className="text-coolGray-400 mt-6 text-xl">
-                            Hey! I’m Abhishek, a creative 25-year-old who loves
-                            to code, build and deploy.
+                            Hey! I’m Abhishek, a <span className="text-green-400">26-year-old</span> software developer passionate about coding, building, and deploying high-quality applications.
                         </p>
                         <div className="text-coolGray-400 text-xl">
-                            <div className="mt-4 "></div>
                             <p className="mt-4 text-xl">
-                                I thrive on challenging myself and constantly learning new technologies. Currently, I have experience developing both web and mobile applications, with a focus on creating seamless user experiences. Right now, I'm working with Courseplay, building solutions that make a difference.
+                                I thrive on challenges and constantly seek opportunities to expand my skill set. With <span className="text-green-400">3 years of experience in mobile and web application development</span>, I focus on building seamless, user-centric digital experiences. Currently, I’m working at <span className="text-green-400">Courseplay</span>, developing impactful solutions that enhance learning through technology.
                             </p>
                             <p className="mt-4 text-xl">
-                                In my free time, I dive into new tech stacks to sharpen my skills. One quote that motivates me when tackling new technologies is, <br />
+                                In my free time, I explore new technologies to stay ahead of industry trends. One quote that keeps me motivated when tackling complex challenges is:
+                                <br />
                                 <span className="text-green-400">
-                                    "It seems difficult at first, but everything
-                                    is difficult at first." - Miyamoto Musashi
-                                    💡
+                                    "It seems difficult at first, but everything is difficult at first." - Miyamoto Musashi 💡
                                 </span>
                             </p>
                             <p className="mt-4 text-xl">
-                                I completed my Masters in Computer Application
-                                from{" "}
+                                I earned my <span className="text-green-400">Master’s in Computer Applications</span> from
                                 <a
                                     className="link text-blue-500"
                                     href="http://www.gcekarad.ac.in/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    GCE Karad
-                                </a>
-                                . Most of the things I build or learn is still
-                                driven by curiosity even today. My most recent
-                                obsession has been building web applications,
-                                native mobile applicaitons and I’m always open
-                                to talk about front-end development, user
-                                interface design and open source!
+                                    {" "}GCE Karad
+                                </a>. My journey in tech has always been fueled by curiosity, and that same curiosity drives me today.
+                                Lately, I’ve been deeply focused on <span className="text-green-400">building web applications, native mobile applications</span>, and refining my skills in <span className="text-green-400">front-end development, UI/UX design, and open-source contributions</span>.
+                                I’m always open to <span className="text-green-400">tech discussions, collaboration opportunities, and innovative projects</span>—let’s connect!
                             </p>
                         </div>
                     </section>
                 </div>
+
                 <div className="mt-12">
                     <h2 className="text-4xl font-semibold">Experience</h2>
                     <section>
