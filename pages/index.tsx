@@ -176,11 +176,11 @@ export default function Home() {
                                         </span>
                                     </div>
                                     <p className="text-sm font-semibold mt-1.5">
-                                        July 2022 &nbsp;—&nbsp; November 2023
+                                        March 2022 &nbsp;—&nbsp; November 2023
                                     </p>
                                 </div>
                             </li>
-                            <li className="flex items-center">
+                            {/* <li className="flex items-center">
                                 <div className="gatsby-image-wrapper gatsby-image-wrapper-constrained rounded flex-shrink-0 bg-white">
                                     <Image
                                         width={150}
@@ -208,7 +208,7 @@ export default function Home() {
                                         March 2022 &nbsp;—&nbsp; July 2022
                                     </p>
                                 </div>
-                            </li>
+                            </li> */}
                         </ul>
                     </section>
                 </div>
